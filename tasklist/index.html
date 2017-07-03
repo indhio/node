@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#3d566e">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Tasklist</title>
+
+  <base href="/">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    ul {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    input:checked ~ span {
+      text-decoration: line-through
+    }
+  </style>
+</head>
+<body>
+  <!--[if lt IE 9]>
+    <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+      your experience.
+    </p>
+  <![endif]-->
+
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="page-header">
+            <h1>Task List</h1>
+          </div><!-- /.page-header -->
+        </div><!-- /.col-sm-6 col-sm-offset-3 -->
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h2>Tarefas</h2>
+
+          <ul class="list-tasks row">
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="task" value="1">
+                <span>
+                  Titulo da tarefa
+                </span>
+              </label>
+              <div class="pull-right">
+                <a href="#" class="btn btn-warning btn-xs"><span class="fa fa-edit"></span></a>
+                <a href="#" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span></a>
+              </div><!-- /.pull-right -->
+            </li>
+
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="task" value="1">
+                <span>
+                  Titulo da tarefa
+                </span>
+              </label>
+              <div class="pull-right">
+                <a href="#" class="btn btn-warning btn-xs"><span class="fa fa-edit"></span></a>
+                <a href="#" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span></a>
+              </div><!-- /.pull-right -->
+            </li>
+          </ul>
+
+          <form action="#" method="post">
+            <div class="input-group">
+              <input class="form-control" type="text" name="task" placeholder="Adicionar tarefa">
+              <span class="input-group-btn">
+                <button class="btn btn-primary">Adicionar</button>
+              </span>
+            </div><!-- /.input-group -->
+          </form>
+        </div><!-- /.col-sm-6 -->
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+  </main><!-- /.main -->
+</body>
+</html>

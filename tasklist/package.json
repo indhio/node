@@ -1,0 +1,30 @@
+{
+  "name": "tasklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderwebschool/tasklist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderwebschool/tasklist/issues"
+  },
+  "homepage": "https://github.com/coderwebschool/tasklist#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
